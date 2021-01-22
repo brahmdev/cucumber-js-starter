@@ -11,7 +11,7 @@ After(() => {
   console.log('shouty AFTER hook');
 });
 
-When('{string} shouts', function (name) {
+When('{word} shouts', function (name) {
   this.shouty.shout(name, ARBITARY_MESSAGE);
 });
 
